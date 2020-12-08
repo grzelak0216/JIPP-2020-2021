@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/libs.hpp
+iostream
+-
+iomanip
+-
+fstream
+-
+sstream
+-
+
+../include/macierz.hpp
+libs.hpp
+../include/libs.hpp
+sqlite3.h
+-
+
+../libs/sqlite3/include/sqlite3.h
+stdarg.h
+-
+
+C:/Users/grzel/projects/helloworld/jipp/lab3_sqlite/src/main.cpp
+libs.hpp
+-
+macierz.hpp
+-
+
