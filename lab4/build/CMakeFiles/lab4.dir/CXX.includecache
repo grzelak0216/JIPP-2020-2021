@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/libs.hpp
+iostream
+-
+fstream
+-
+
+../include/macierz.hpp
+libs.hpp
+../include/libs.hpp
+
+C:/Users/grzel/projects/helloworld/jipp/lab4/include/libs.hpp
+iostream
+-
+fstream
+-
+
+C:/Users/grzel/projects/helloworld/jipp/lab4/src/main.cpp
+../include/libs.hpp
+C:/Users/grzel/projects/helloworld/jipp/lab4/include/libs.hpp
+macierz.hpp
+C:/Users/grzel/projects/helloworld/jipp/lab4/src/macierz.hpp
+

@@ -1,0 +1,5 @@
+C:/Users/grzel/projects/helloworld/jipp/lab4/build/CMakeFiles/edit_cache.dir
+C:/Users/grzel/projects/helloworld/jipp/lab4/build/CMakeFiles/lab4.dir
+C:/Users/grzel/projects/helloworld/jipp/lab4/build/CMakeFiles/package.dir
+C:/Users/grzel/projects/helloworld/jipp/lab4/build/CMakeFiles/package_source.dir
+C:/Users/grzel/projects/helloworld/jipp/lab4/build/CMakeFiles/rebuild_cache.dir

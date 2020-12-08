@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/grzel/projects/helloworld/jipp/lab4/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/lab4.dir/includes_CXX.rsp -g -o CMakeFiles\\lab4.dir\\src\\main.cpp.obj -c C:\\Users\\grzel\\projects\\helloworld\\jipp\\lab4\\src\\main.cpp",
+  "file": "C:/Users/grzel/projects/helloworld/jipp/lab4/src/main.cpp"
+}
+]
