@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/grzel/projects/helloworld/jipp/lab3_Exceptions/include/libs.hpp
+iostream
+-
+fstream
+-
+cstdarg
+-
+
+C:/Users/grzel/projects/helloworld/jipp/lab3_Exceptions/include/macierz.hpp
+libs.hpp
+C:/Users/grzel/projects/helloworld/jipp/lab3_Exceptions/include/libs.hpp
+
+C:/Users/grzel/projects/helloworld/jipp/lab3_Exceptions/src/main.cpp
+../include/libs.hpp
+C:/Users/grzel/projects/helloworld/jipp/lab3_Exceptions/include/libs.hpp
+../include/macierz.hpp
+C:/Users/grzel/projects/helloworld/jipp/lab3_Exceptions/include/macierz.hpp
+
