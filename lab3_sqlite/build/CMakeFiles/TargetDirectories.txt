@@ -1,3 +1,0 @@
-C:/Users/grzel/projects/helloworld/jipp/lab3_sqlite/build/CMakeFiles/lab3_sqlite.dir
-C:/Users/grzel/projects/helloworld/jipp/lab3_sqlite/build/CMakeFiles/edit_cache.dir
-C:/Users/grzel/projects/helloworld/jipp/lab3_sqlite/build/CMakeFiles/rebuild_cache.dir

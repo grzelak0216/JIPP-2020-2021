@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/grzel/projects/helloworld/jipp/lab5/include/header.hpp
+iostream
+-
+fstream
+-
+
+C:/Users/grzel/projects/helloworld/jipp/lab5/src/main.cpp
+iostream
+-
+time.h
+-
+../include/header.hpp
+C:/Users/grzel/projects/helloworld/jipp/lab5/include/header.hpp
+
