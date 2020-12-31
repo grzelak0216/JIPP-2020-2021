@@ -93,10 +93,10 @@ int main(int argc, char *argv[])
     cout << "\n macierz1: \n";
     Macierz2.print();
 
-    Macierz1 = (Macierz3 - Macierz2);
+    Macierz3 = (Macierz1 - Macierz2);
 
     cout << "\n wynik :\n";
-    Macierz1.print(); //Wyswietlanie zawatrosci macierzy
+    Macierz3.print(); //Wyswietlanie zawatrosci macierzy
     cout << endl;
 
     cout << "\n poruwnywanie\n"
@@ -159,9 +159,11 @@ int main(int argc, char *argv[])
         //cout << "\n";
     }
 
-    static int n = Macierz4.raws();
+    Macierz4.print();
 
-    double tab[n] = {Macierz4[0]};
+    int n = Macierz4.raws();
+
+    const double *tab = Macierz4[1];
 
     for (int i = 0; i < n; i++)
     {

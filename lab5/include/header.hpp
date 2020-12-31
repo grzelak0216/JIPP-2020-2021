@@ -191,7 +191,7 @@ public:
         }
     }
 
-    double operator[](int n)
+    const double *operator[](int n) const
     {
 
         if ((n < 0) || (n > wier))
@@ -205,6 +205,6 @@ public:
                 n = wier;
             }
         }
-        return *macierz[n];
+        return macierz[n];
     }
 };
