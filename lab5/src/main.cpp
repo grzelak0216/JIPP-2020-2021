@@ -171,6 +171,40 @@ int main(int argc, char *argv[])
     }
     cout << endl;
 
+    Macierz Macierz5(4, 4);
+
+    for (int j = 0; j < 4; j++)
+    {
+        for (int i = 0; i < 4; i++)
+        {
+            pom = i + j;
+            Macierz5.set(j, i, pom);
+        }
+        //cout << "\n";
+    }
+
+    Macierz Macierz6(4, 4);
+
+    for (int j = 0; j < 4; j++)
+    {
+        for (int i = 0; i < 4; i++)
+        {
+            pom = i + j;
+            Macierz6.set(j, i, pom);
+        }
+        //cout << "\n";
+    }
+    //wybrać 3 operatory i je przeładować
+    cout << "\n\n dodatkowe\n";
+    Macierz5.print();
+    Macierz5 &(0);
+    Macierz5();
+    Macierz5 >> Macierz6;
+    Macierz5();
+    Macierz6();
+
+    Macierz5.destroy();
+    Macierz6.destroy();
     Macierz4.destroy();
     Macierz3.destroy();
     Multiply1.destroy();

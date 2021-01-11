@@ -207,4 +207,51 @@ public:
         }
         return macierz[n];
     }
+
+    //wybrać 3 operatory i je przeładować
+
+    void operator&(int wart)
+    {
+        for (int j = 0; j < wier; j++)
+        {
+            for (int i = 0; i < kol; i++)
+            {
+                macierz[j][i] = wart;
+            }
+        }
+    }
+
+    void operator()()
+    {
+        cout << "\n ilosc wierszy: " << wier;
+        cout << "\n ilosc kolumn: " << kol;
+        cout << endl;
+
+        for (int j = 0; j < wier; j++)
+        {
+            for (int i = 0; i < kol; i++)
+            {
+                cout << "[ " << macierz[j][i] << " ] ";
+            }
+            cout << "\n";
+        }
+    }
+
+    void operator>>(const Macierz macierz2)
+    {
+        if (kol != macierz2.kol || wier != macierz2.wier)
+        {
+            cout << "\n zly rozmiar macierzy ";
+        }
+        else
+        {
+            for (int j = 0; j < wier; j++)
+            {
+                for (int i = 0; i < kol; i++)
+                {
+                    macierz[j][i] = macierz2.macierz[j][i];
+                }
+            }
+        }
+    }
 };
