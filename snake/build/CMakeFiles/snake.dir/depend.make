@@ -22,10 +22,24 @@ CMakeFiles/snake.dir/src/snake_draw.cpp.obj: ../include/funk.h
 CMakeFiles/snake.dir/src/snake_draw.cpp.obj: ../include/header.h
 CMakeFiles/snake.dir/src/snake_draw.cpp.obj: ../src/snake_draw.cpp
 
+CMakeFiles/snake.dir/src/snake_funk.cpp.obj: ../include/GL/freeglut.h
+CMakeFiles/snake.dir/src/snake_funk.cpp.obj: ../include/GL/freeglut_ext.h
+CMakeFiles/snake.dir/src/snake_funk.cpp.obj: ../include/GL/freeglut_std.h
+CMakeFiles/snake.dir/src/snake_funk.cpp.obj: ../include/funk.h
+CMakeFiles/snake.dir/src/snake_funk.cpp.obj: ../include/header.h
+CMakeFiles/snake.dir/src/snake_funk.cpp.obj: ../src/snake_funk.cpp
+
 CMakeFiles/snake.dir/src/snake_move.cpp.obj: ../include/GL/freeglut.h
 CMakeFiles/snake.dir/src/snake_move.cpp.obj: ../include/GL/freeglut_ext.h
 CMakeFiles/snake.dir/src/snake_move.cpp.obj: ../include/GL/freeglut_std.h
 CMakeFiles/snake.dir/src/snake_move.cpp.obj: ../include/funk.h
 CMakeFiles/snake.dir/src/snake_move.cpp.obj: ../include/header.h
 CMakeFiles/snake.dir/src/snake_move.cpp.obj: ../src/snake_move.cpp
+
+CMakeFiles/snake.dir/src/snake_score.cpp.obj: ../include/GL/freeglut.h
+CMakeFiles/snake.dir/src/snake_score.cpp.obj: ../include/GL/freeglut_ext.h
+CMakeFiles/snake.dir/src/snake_score.cpp.obj: ../include/GL/freeglut_std.h
+CMakeFiles/snake.dir/src/snake_score.cpp.obj: ../include/funk.h
+CMakeFiles/snake.dir/src/snake_score.cpp.obj: ../include/header.h
+CMakeFiles/snake.dir/src/snake_score.cpp.obj: ../src/snake_score.cpp
 

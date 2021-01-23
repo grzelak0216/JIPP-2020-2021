@@ -49,8 +49,16 @@ conio.h
 -
 string.h
 -
+map
+-
+fstream
+-
 
 C:/Users/grzel/projects/helloworld/jipp/snake/src/snake_build.cpp
+funk.h
+C:/Users/grzel/projects/helloworld/jipp/snake/src/funk.h
+
+C:/Users/grzel/projects/helloworld/jipp/snake/src/snake_score.cpp
 funk.h
 C:/Users/grzel/projects/helloworld/jipp/snake/src/funk.h
 

@@ -7,7 +7,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/grzel/projects/helloworld/jipp/snake/src/main.cpp" "C:/Users/grzel/projects/helloworld/jipp/snake/build/CMakeFiles/snake.dir/src/main.cpp.obj"
   "C:/Users/grzel/projects/helloworld/jipp/snake/src/snake_build.cpp" "C:/Users/grzel/projects/helloworld/jipp/snake/build/CMakeFiles/snake.dir/src/snake_build.cpp.obj"
   "C:/Users/grzel/projects/helloworld/jipp/snake/src/snake_draw.cpp" "C:/Users/grzel/projects/helloworld/jipp/snake/build/CMakeFiles/snake.dir/src/snake_draw.cpp.obj"
+  "C:/Users/grzel/projects/helloworld/jipp/snake/src/snake_funk.cpp" "C:/Users/grzel/projects/helloworld/jipp/snake/build/CMakeFiles/snake.dir/src/snake_funk.cpp.obj"
   "C:/Users/grzel/projects/helloworld/jipp/snake/src/snake_move.cpp" "C:/Users/grzel/projects/helloworld/jipp/snake/build/CMakeFiles/snake.dir/src/snake_move.cpp.obj"
+  "C:/Users/grzel/projects/helloworld/jipp/snake/src/snake_score.cpp" "C:/Users/grzel/projects/helloworld/jipp/snake/build/CMakeFiles/snake.dir/src/snake_score.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -131,12 +131,42 @@ CMakeFiles/snake.dir/src/snake_move.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/snake_move.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\grzel\projects\helloworld\jipp\snake\src\snake_move.cpp -o CMakeFiles\snake.dir\src\snake_move.cpp.s
 
+CMakeFiles/snake.dir/src/snake_funk.cpp.obj: CMakeFiles/snake.dir/flags.make
+CMakeFiles/snake.dir/src/snake_funk.cpp.obj: CMakeFiles/snake.dir/includes_CXX.rsp
+CMakeFiles/snake.dir/src/snake_funk.cpp.obj: ../src/snake_funk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\grzel\projects\helloworld\jipp\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/snake.dir/src/snake_funk.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\snake.dir\src\snake_funk.cpp.obj -c C:\Users\grzel\projects\helloworld\jipp\snake\src\snake_funk.cpp
+
+CMakeFiles/snake.dir/src/snake_funk.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snake.dir/src/snake_funk.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\grzel\projects\helloworld\jipp\snake\src\snake_funk.cpp > CMakeFiles\snake.dir\src\snake_funk.cpp.i
+
+CMakeFiles/snake.dir/src/snake_funk.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/snake_funk.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\grzel\projects\helloworld\jipp\snake\src\snake_funk.cpp -o CMakeFiles\snake.dir\src\snake_funk.cpp.s
+
+CMakeFiles/snake.dir/src/snake_score.cpp.obj: CMakeFiles/snake.dir/flags.make
+CMakeFiles/snake.dir/src/snake_score.cpp.obj: CMakeFiles/snake.dir/includes_CXX.rsp
+CMakeFiles/snake.dir/src/snake_score.cpp.obj: ../src/snake_score.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\grzel\projects\helloworld\jipp\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/snake.dir/src/snake_score.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\snake.dir\src\snake_score.cpp.obj -c C:\Users\grzel\projects\helloworld\jipp\snake\src\snake_score.cpp
+
+CMakeFiles/snake.dir/src/snake_score.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snake.dir/src/snake_score.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\grzel\projects\helloworld\jipp\snake\src\snake_score.cpp > CMakeFiles\snake.dir\src\snake_score.cpp.i
+
+CMakeFiles/snake.dir/src/snake_score.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/snake_score.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\grzel\projects\helloworld\jipp\snake\src\snake_score.cpp -o CMakeFiles\snake.dir\src\snake_score.cpp.s
+
 # Object files for target snake
 snake_OBJECTS = \
 "CMakeFiles/snake.dir/src/main.cpp.obj" \
 "CMakeFiles/snake.dir/src/snake_draw.cpp.obj" \
 "CMakeFiles/snake.dir/src/snake_build.cpp.obj" \
-"CMakeFiles/snake.dir/src/snake_move.cpp.obj"
+"CMakeFiles/snake.dir/src/snake_move.cpp.obj" \
+"CMakeFiles/snake.dir/src/snake_funk.cpp.obj" \
+"CMakeFiles/snake.dir/src/snake_score.cpp.obj"
 
 # External object files for target snake
 snake_EXTERNAL_OBJECTS =
@@ -145,12 +175,14 @@ snake_EXTERNAL_OBJECTS =
 ../bin/snake.exe: CMakeFiles/snake.dir/src/snake_draw.cpp.obj
 ../bin/snake.exe: CMakeFiles/snake.dir/src/snake_build.cpp.obj
 ../bin/snake.exe: CMakeFiles/snake.dir/src/snake_move.cpp.obj
+../bin/snake.exe: CMakeFiles/snake.dir/src/snake_funk.cpp.obj
+../bin/snake.exe: CMakeFiles/snake.dir/src/snake_score.cpp.obj
 ../bin/snake.exe: CMakeFiles/snake.dir/build.make
 ../bin/snake.exe: ../libs/x64/libfreeglut.a
 ../bin/snake.exe: CMakeFiles/snake.dir/linklibs.rsp
 ../bin/snake.exe: CMakeFiles/snake.dir/objects1.rsp
 ../bin/snake.exe: CMakeFiles/snake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\grzel\projects\helloworld\jipp\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ..\bin\snake.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\grzel\projects\helloworld\jipp\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ..\bin\snake.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\snake.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

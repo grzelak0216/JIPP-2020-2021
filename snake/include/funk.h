@@ -1,42 +1,80 @@
 #include "header.h"
 
-extern int GAME_OVER;
-extern int SCORE;
+namespace SNAKE
+{
 
-extern int foodx, foody;
-extern int food;
+    extern int GAME_OVER;
+    extern int SCORE;
 
-extern int length;
+    extern int foodx, foody;
+    extern int food;
 
-extern int posSnake[300][2];
-extern int xr, yr;
+    extern int length;
 
-void partSnake(int x, int y);
+    extern int posSnake[300][2];
+    extern int xr, yr;
 
-void specialkey(int key, int x, int y);
+    extern int number;
 
-void drawSnake();
+    class Build
+    {
+    protected:
+    private:
+        struct text;
 
-void moveSnake();
+    public:
+        void gameSnake();
 
-void drawFood();
+        void beginSnake0();
 
-void drawSquare(GLint x1, GLint y1, GLint x2, GLint y2, GLint x3, GLint y3, GLint x4, GLint y4);
+        void beginSnake1();
 
-void board();
+        void endSnake();
 
-void drawString24(int x, int y, string str);
+        void scoreSnake();
+    };
 
-void drawString10(int x, int y, string str);
+    class Draw
+    {
+    private:
+        int c = 0;
+        int b = 0;
 
-string intToStr(int n);
+        int pom = 25;
 
-void gameSnake();
+    public:
+        void partSnake(int x, int y);
 
-void beginSnake0();
+        void drawSnake();
 
-void beginSnake1();
+        void drawFood();
 
-void endSnake();
+        void drawSquare(GLint x1, GLint y1, GLint x2, GLint y2, GLint x3, GLint y3, GLint x4, GLint y4);
 
-void bildSnake();
+        void board();
+    };
+
+    class Score
+    {
+    private:
+        std::map<int, int> score_list;
+
+    public:
+        void make_list();
+
+        void print_list();
+    };
+
+    void specialkey(int key, int x, int y);
+
+    void moveSnake();
+
+    void drawString24(int x, int y, string str);
+
+    void drawString10(int x, int y, string str);
+
+    string intToStr(int n);
+
+    void buildSnake();
+
+} // namespace SNAKE

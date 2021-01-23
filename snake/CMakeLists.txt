@@ -20,7 +20,7 @@ set (
 )
 
 set (    CMAKE_EXE_LINKER_FLAGS
-    "-Wl,--subsystem,windows"
+    "-Wl,--subsystem,console"
 )
 
 # Pliki zrodlowe
@@ -33,6 +33,8 @@ add_executable (
     ./src/snake_draw.cpp
     ./src/snake_build.cpp
     ./src/snake_move.cpp
+    ./src/snake_funk.cpp
+    ./src/snake_score
 )
 
 

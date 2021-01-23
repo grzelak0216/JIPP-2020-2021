@@ -5,5 +5,7 @@
 #include <string.h>
 #include <conio.h>
 #include <string.h>
+#include <map>
+#include <fstream>
 
 using namespace std;

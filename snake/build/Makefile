@@ -222,6 +222,33 @@ src/snake_draw.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake.dir\build.make CMakeFiles/snake.dir/src/snake_draw.cpp.s
 .PHONY : src/snake_draw.cpp.s
 
+src/snake_funk.obj: src/snake_funk.cpp.obj
+
+.PHONY : src/snake_funk.obj
+
+# target to build an object file
+src/snake_funk.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake.dir\build.make CMakeFiles/snake.dir/src/snake_funk.cpp.obj
+.PHONY : src/snake_funk.cpp.obj
+
+src/snake_funk.i: src/snake_funk.cpp.i
+
+.PHONY : src/snake_funk.i
+
+# target to preprocess a source file
+src/snake_funk.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake.dir\build.make CMakeFiles/snake.dir/src/snake_funk.cpp.i
+.PHONY : src/snake_funk.cpp.i
+
+src/snake_funk.s: src/snake_funk.cpp.s
+
+.PHONY : src/snake_funk.s
+
+# target to generate assembly for a file
+src/snake_funk.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake.dir\build.make CMakeFiles/snake.dir/src/snake_funk.cpp.s
+.PHONY : src/snake_funk.cpp.s
+
 src/snake_move.obj: src/snake_move.cpp.obj
 
 .PHONY : src/snake_move.obj
@@ -249,6 +276,33 @@ src/snake_move.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake.dir\build.make CMakeFiles/snake.dir/src/snake_move.cpp.s
 .PHONY : src/snake_move.cpp.s
 
+src/snake_score.obj: src/snake_score.cpp.obj
+
+.PHONY : src/snake_score.obj
+
+# target to build an object file
+src/snake_score.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake.dir\build.make CMakeFiles/snake.dir/src/snake_score.cpp.obj
+.PHONY : src/snake_score.cpp.obj
+
+src/snake_score.i: src/snake_score.cpp.i
+
+.PHONY : src/snake_score.i
+
+# target to preprocess a source file
+src/snake_score.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake.dir\build.make CMakeFiles/snake.dir/src/snake_score.cpp.i
+.PHONY : src/snake_score.cpp.i
+
+src/snake_score.s: src/snake_score.cpp.s
+
+.PHONY : src/snake_score.s
+
+# target to generate assembly for a file
+src/snake_score.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake.dir\build.make CMakeFiles/snake.dir/src/snake_score.cpp.s
+.PHONY : src/snake_score.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -267,9 +321,15 @@ help:
 	@echo ... src/snake_draw.obj
 	@echo ... src/snake_draw.i
 	@echo ... src/snake_draw.s
+	@echo ... src/snake_funk.obj
+	@echo ... src/snake_funk.i
+	@echo ... src/snake_funk.s
 	@echo ... src/snake_move.obj
 	@echo ... src/snake_move.i
 	@echo ... src/snake_move.s
+	@echo ... src/snake_score.obj
+	@echo ... src/snake_score.i
+	@echo ... src/snake_score.s
 .PHONY : help
 
 

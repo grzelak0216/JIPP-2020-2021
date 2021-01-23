@@ -18,5 +18,15 @@
   "directory": "C:/Users/grzel/projects/helloworld/jipp/snake/build",
   "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/snake.dir/includes_CXX.rsp -g -m64 -o CMakeFiles\\snake.dir\\src\\snake_move.cpp.obj -c C:\\Users\\grzel\\projects\\helloworld\\jipp\\snake\\src\\snake_move.cpp",
   "file": "C:/Users/grzel/projects/helloworld/jipp/snake/src/snake_move.cpp"
+},
+{
+  "directory": "C:/Users/grzel/projects/helloworld/jipp/snake/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/snake.dir/includes_CXX.rsp -g -m64 -o CMakeFiles\\snake.dir\\src\\snake_funk.cpp.obj -c C:\\Users\\grzel\\projects\\helloworld\\jipp\\snake\\src\\snake_funk.cpp",
+  "file": "C:/Users/grzel/projects/helloworld/jipp/snake/src/snake_funk.cpp"
+},
+{
+  "directory": "C:/Users/grzel/projects/helloworld/jipp/snake/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/snake.dir/includes_CXX.rsp -g -m64 -o CMakeFiles\\snake.dir\\src\\snake_score.cpp.obj -c C:\\Users\\grzel\\projects\\helloworld\\jipp\\snake\\src\\snake_score.cpp",
+  "file": "C:/Users/grzel/projects/helloworld/jipp/snake/src/snake_score.cpp"
 }
 ]

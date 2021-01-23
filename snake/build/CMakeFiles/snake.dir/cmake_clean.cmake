@@ -5,7 +5,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/snake.dir/src/main.cpp.obj"
   "CMakeFiles/snake.dir/src/snake_build.cpp.obj"
   "CMakeFiles/snake.dir/src/snake_draw.cpp.obj"
+  "CMakeFiles/snake.dir/src/snake_funk.cpp.obj"
   "CMakeFiles/snake.dir/src/snake_move.cpp.obj"
+  "CMakeFiles/snake.dir/src/snake_score.cpp.obj"
   "libsnake.dll.a"
 )
 
